@@ -13,6 +13,9 @@ This repository contains the code, and was developed as a part of the Assignment
 
 
 ## Merging Overview 
+
+<img src="https://github.com/namantuli18/hyper-clusters-merging/blob/main/resources/imgs/pipeline.jpg" alt="Pruning Pipeline" width="850"/>
+
  
 1. Compute layer embeddings:
     - Process text samples from Wikipedia
