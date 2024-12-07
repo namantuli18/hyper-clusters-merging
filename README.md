@@ -5,11 +5,11 @@ This repository contains the code, and was developed as a part of the Assignment
 
 ## Components
 
-| Model Name | Merging Notebook | HF Model Path |  HF Link |
-|----------|----------|----------|----------|
-| LLaMa2-7B    | Data     | Info     | Info |
-| LLaMa2-13B    | Data     | Info     | Info |
-| Baichuan2-7B    | Data     | Info     | Info |
+| Model Name | Merging Notebook | HF Model |
+|----------|----------|----------|
+| LLaMa2-7B    | [Llama2_7b_hyperboloid_merging](https://github.com/namantuli18/hyper-clusters-merging/blob/main/merge/Llama2_7b_hyperboloid_merging.ipynb)     | [namannn/llama2-7b-hyperbolic-cluster-pruned](https://huggingface.co/namannn/llama2-7b-hyperbolic-cluster-pruned)
+| LLaMa2-13B    | [Llama2_13b_hyperboloid_merging](https://github.com/namantuli18/hyper-clusters-merging/blob/main/merge/Llama2_13b_hyperboloid_merging.ipynb)     | [namannn/llama2-13b-hyperbolic-cluster-pruned](https://huggingface.co/namannn/llama2-13b-hyperbolic-cluster-pruned)
+| Baichuan2-7B    | [Baichuan2_7b_hyperboloid_merging](https://github.com/namantuli18/hyper-clusters-merging/blob/main/merge/Baichuan2_7b_hyperboloid_merging.ipynb)     | [namannn/baichuan2-7b-hyperbolic-cluster-pruned](https://huggingface.co/namannn/baichuan2-7b-hyperbolic-cluster-pruned)
 
 
 ## Merging Overview 
