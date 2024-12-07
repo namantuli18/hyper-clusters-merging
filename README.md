@@ -3,6 +3,15 @@
 This repository contains the code, and was developed as a part of the Assignment 4 for the CMU ANLP Course 11-711.
 
 
+## Components
+
+| Model Name | Merging Notebook | HF Model Path |  HF Link |
+|----------|----------|----------|----------|
+| LLaMa2-7B    | Data     | Info     | Info |
+| LLaMa2-13B    | Data     | Info     | Info |
+| Baichuan2-7B    | Data     | Info     | Info |
+
+
 ## Merging Overview 
 
 1. Compute layer embeddings:
