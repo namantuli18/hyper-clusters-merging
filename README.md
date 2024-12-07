@@ -117,3 +117,33 @@ api.upload_folder(
     repo_type="model"
 )
 ```
+
+## Usage/Inference 
+The individual models have been uploaded to HuggingFace and can be used directly
+
+- Use with Transformers library
+  
+  ```python
+      # Load model directly
+    from transformers import AutoTokenizer, AutoModelForCausalLM
+    
+    tokenizer = AutoTokenizer.from_pretrained("namannn/llama2-13b-hyperbolic-cluster-pruned")
+    model = AutoModelForCausalLM.from_pretrained("namannn/llama2-13b-hyperbolic-cluster-pruned")
+  ```
+  
+- Use with VLLM
+
+  ```bash
+  # Load and run the model:
+    vllm serve "namannn/llama2-13b-hyperbolic-cluster-pruned"
+
+  # Call the server using curl:
+    curl -X POST "http://localhost:8000/v1/completions" \
+    	-H "Content-Type: application/json" \
+    	--data '{
+    		"model": "namannn/llama2-13b-hyperbolic-cluster-pruned",
+    		"prompt": "Once upon a time,",
+    		"max_tokens": 512,
+    		"temperature": 0.5
+    	}'
+  ```
