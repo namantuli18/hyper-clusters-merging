@@ -3,6 +3,24 @@
 This repository contains the code, and was developed as a part of the Assignment 4 for the CMU ANLP Course 11-711.
 
 
+## Merging Overview 
+
+1. Compute layer embeddings:
+    - Process text samples from Wikipedia
+    - Extract hidden states for each layer
+    - Compute average embeddings
+
+2. Project embeddings to hyperboloid:
+    - Use exponential map to project Euclidean vectors onto hyperboloid
+
+3. Perform hyperbolic spectral clustering:
+    - Compute pairwise similarities using Lorentzian inner product
+    - Apply spectral clustering to group similar layers
+4. Merge layers:
+    - Identify clusters with high similarity
+    - Merge layers within each selected cluster
+
+
 ## Setup
 ### 1. Install required packages:
 ```bash
