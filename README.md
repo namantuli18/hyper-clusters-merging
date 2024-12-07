@@ -13,7 +13,7 @@ This repository contains the code, and was developed as a part of the Assignment
 
 
 ## Merging Overview 
-
+ 
 1. Compute layer embeddings:
     - Process text samples from Wikipedia
     - Extract hidden states for each layer
