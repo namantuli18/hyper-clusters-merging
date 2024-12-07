@@ -1,6 +1,6 @@
 # Hyperboloid Clusters Merging
 
-This repository contains the code, and was developed as a part of the Assignment 4 for the CMU ANLP Course 11-711.
+This repository contains the code, and was developed as a part of the Assignment 4 for the [CMU ANLP Course 11-711](https://www.phontron.com/class/anlp-fall2024/).
 
 
 ## Components
