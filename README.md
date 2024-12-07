@@ -147,3 +147,20 @@ The individual models have been uploaded to HuggingFace and can be used directly
     		"temperature": 0.5
     	}'
   ```
+
+## Results
+
+### Benchmarking result comparison of HyperClusters against [LaCo](https://arxiv.org/pdf/2402.11187) using OpenCompass
+  Here, a higher score is indicative of better performance
+  
+  <img src="https://github.com/namantuli18/hyper-clusters-merging/blob/main/resources/imgs/benchmarks.jpg" alt="Pruning Pipeline" width="850"/>
+
+
+### Perplexity comparison with [LaCo](https://arxiv.org/pdf/2402.11187) and unpruned model
+
+  <img src="https://github.com/namantuli18/hyper-clusters-merging/blob/main/resources/imgs/perplexity_comparison.png" alt="Perplexity Results" width="850"/>
+
+
+### Visualization of clusters used to merge layers for the LLaMa2-7B model
+
+  <img src="https://github.com/namantuli18/hyper-clusters-merging/blob/main/resources/imgs/layers_clustered_by_similarity.png" alt="Clustered Layers" width="850"/>
